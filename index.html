@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+       html,body {
+            font-family: Arial, Helvetica, sans-serif;background-color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+        
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+
+        }
+
+        caption{
+            text-align: left;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        div#container {
+             overflow-x:auto;
+        }
+
+        .cinza{
+            background-color: rgba(128, 128, 128, 0.76);
+            color: white;
+        }
+
+    </style>
+</head>
+<body> 
+        <h1>Tabela 1: Incidencia</h1>
+        <div id="container">
+            <table>
+                <caption>Corona virus por Pais.</caption>
+                <thead>
+                 <tr>
+            <th scope="col" class="cinza">Pais</th>
+            <th scope="col" class="cinza">Casos</th>
+            <th scope="rowgroup" class="cinza">Mortes</th>
+            <th scope="col" class="cinza">População</th>
+                </tr>        
+                <tfoot> 
+                <tr>
+            <th colspan="3" class="cinza" scope="row">Total de Mortes</th>
+            <td class="cinza">3.655.430</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+            <td>Estados Unidos</td>
+            <td>49.387.208</td>
+            <td>791.514</td>
+            <td>332.915.074</td>
+                </tr>
+                <tr>
+            <td>Brasil</td>
+            <td>22.157.726</td>
+            <td>616.018</td>
+            <td>213.993.441</td>
+                </tr>
+                <tr>
+            <td>Índia</td>
+            <td>34.656.822</td>
+            <td>473.952</td>
+            <td>1.393.409.033</td>
+                </tr>
+                <tr>
+            <td>México</td>
+            <td>3.902.015</td>
+            <td>295.313</td>
+            <td>130.262.220</td>
+                </tr>
+                <tr>
+            <td>Rússia</td>
+            <td>9.692.411</td>
+            <td>278.131</td>
+            <td>145.912.022</td>
+                </tr>
+                <tr>
+            <td>Peru</td>
+            <td>2.246.633</td>
+            <td>201.450</td>
+            <td>33.359.415</td>
+                </tr>
+                <tr>
+            <td>Reino Unido</td>
+            <td>10.620.535</td>
+            <td>146.281</td>
+            <td>68.207.114</td>
+                </tr>
+                <tr>
+            <td>Indonésia</td>
+            <td>4.258.076</td>
+            <td>143.893</td>
+            <td>276.361.788</td>
+                </tr>
+                <tr>
+            <td>Itália</td>
+            <td>5.134.318</td>
+            <td>134.386</td>
+            <td>60.367.471</td>
+                </tr>
+                <tr>
+            <td>Irã</td>
+            <td>6.141.335</td>
+            <td>130.356</td>
+            <td>85.028.760</td>
+                </tr>
+                <tr>
+            <td>Colômbia</td>
+            <td>5.084.466</td>
+            <td>128.874</td>
+            <td>51.265.841</td>
+                </tr>
+                <tr>
+            <td>França</td>
+            <td>8.091.667</td>
+            <td>120.883</td>
+            <td>67.564.251</td>
+                </tr>
+                <tr>
+            <td>Argentina</td>
+            <td>5.346.242</td>
+            <td>116.703</td>
+            <td>45.605.823</td>
+                </tr>
+                <tr>
+            <td>Alemanha</td>
+            <td>6.312.346</td>
+            <td>104.051</td>
+            <td>83.900.471</td>
+                </tr>
+                <tr>
+            <td>Ucrânia </td>
+            <td>3.683.044</td>
+            <td>94.499</td>
+            <td>43.466.822</td>
+                </tr>
+               </tbody>
+             </table>
+        </div>
+</body>
+</html>
